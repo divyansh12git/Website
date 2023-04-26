@@ -1,0 +1,63 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image:url(/Class_Lab/walpaper.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#heading{
+    color:rgb(238, 255, 0);
+    margin-top:200px;
+    margin-bottom:50px;
+    text-decoration:underline;
+}
+#registration{
+    height:50px;
+    width:100px;
+    background-color: rebeccapurple;
+    margin-right: 20px;
+    border-radius: 55px;
+}
+.link{
+    color:aliceblue;
+}
+#login{
+    height:50px;
+    width:100px;
+    background-color: rebeccapurple;
+    margin-right:20px;
+    border-radius: 55px;
+}
+#cata{
+    height:50px;
+    width:100px;
+    background-color: rebeccapurple; 
+    border-radius: 55px;
+}
+#contact{
+    height:50px;
+    width:100px;
+    border-radius: 55px;
+    background-color: rebeccapurple;
+    color:aliceblue;
+}
+#about{
+    height:50px;
+    width:100px;
+    border-radius: 55px;
+    background-color: rebeccapurple;
+    color:aliceblue;
+}
+#service{
+    height:50px;
+    width:100px;
+    border-radius: 55px;
+    background-color: rebeccapurple;
+    color:aliceblue;
+}
+button{
+    margin:15px;
+}

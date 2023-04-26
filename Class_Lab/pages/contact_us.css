@@ -1,0 +1,64 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    background-image: url(/Class_Lab/pages/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#head{
+    color:white;
+}
+#for{
+    border:1px solid black;
+    padding:20px;
+    background-color: cadetblue;
+}
+input{
+    height:25px;
+    padding:5px;
+    width:200px;
+}
+#t1{
+    margin-bottom:20px;
+}
+#t2{
+    margin-bottom: 20px;
+}
+#t3{
+    margin-bottom:20px;
+}
+#t4{
+    margin-bottom:20px;
+}
+#submit{
+    margin-bottom:20px;
+    margin-left:100px;
+    width:150px;
+    height:35px;
+    background-color: brown;
+    color:white;
+}
+#i1{
+    margin-left:80px;
+}
+#i2{
+    margin-left:70px;
+    width:210px;
+    height:35px;
+    padding:px;
+}
+#i3{
+    margin-left:55px;
+    
+}
+#i4{
+    margin-left:45px;
+    height:100px
+}
+#submit:hover{
+    background-color: black;
+}

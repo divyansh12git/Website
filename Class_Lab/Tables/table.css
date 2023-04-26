@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image:url(/Class_Lab/walpaper.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#heading{
+    color:rgb(254, 246, 1);
+    margin-top:100px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+table,th,td{
+    border:2px solid white;
+    border-collapse: collapse;
+    background-color: rgba(255, 174, 0, 0.971);
+}
+th,td{
+    padding:10px;
+    color:aquamarine;
+    font-size:20px;
+}

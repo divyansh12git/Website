@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title>form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/Class_Lab/Styles.css">
+    </head>
+    <body>
+        <h1 class="heading">Registration form</h1>
+        <form id="Registration_form" method="get"  action="/submit">
+            <div>
+                Enter your first name
+                <input type="text" id="a" required><br>
+            </div>
+            <div>
+                Enter your last name
+                <input type="text" id="b" required>
+            </div>
+            <div>
+                Branch <input type="text"  id="c" list="branch" required>
+                <datalist id="branch">
+                    <option value="CSE">
+                    <option value="ECE">
+                    <option value="ME">
+                    <option value="Civil">
+                    <option value="EE">
+                    </datalist>
+            </div>
+            <div>
+                Section<input id="d" type="text" list="section">
+                <datalist id="section">
+                    <option value="A">
+                    <option value="B">
+                    <option value="C">
+                </datalist>
+            </div>
+            <div>
+                Email ID<input type="email"id="e" required>
+            </div>
+            <div>
+                Password<input type="password" number id="f" required>
+            </div>
+            <div>
+                Roll number<input type="number" id="g" required>
+            </div>
+            <div>
+                <input type="submit" id="h" value="Submit form here">
+            </div>
+        </form>
+    </body>
+</html>
